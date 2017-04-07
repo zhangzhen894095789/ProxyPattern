@@ -1,0 +1,7 @@
+所谓的Dynamic Proxy 是这样一种class:
+
+他是在运行是产生的class
+
+该class需要实现一组interface也可以是一个interface但必须是实现接口的class
+
+使用动态代理类时，必须实现InvocationHandler接口，因为代理方法的调用是在Handler中实现的

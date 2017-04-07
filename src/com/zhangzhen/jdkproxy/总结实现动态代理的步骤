@@ -1,0 +1,9 @@
+1、创建一个实现了InvocationHandler接口的类，他必须实现invoke方法
+被代理类的业务逻辑都在Handler中执行（也就是都写在Handler中）
+
+2、创建被代理的类以及接口
+
+3、调用Proxy的静态方法，创建一个代理类
+new ProxyInstance(ClassLoader loader,Class[] interfaces,Invocationhandler h)
+
+4、通过代理调用方法
